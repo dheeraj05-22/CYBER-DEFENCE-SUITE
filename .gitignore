@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Logs & reports
+*.log
+reports/*.csv
+reports/*.pdf
+reports/*/
+
+# Tests
+test_*.py
