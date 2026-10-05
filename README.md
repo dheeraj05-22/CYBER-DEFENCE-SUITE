@@ -103,114 +103,45 @@ CYBER-DEFENCE-SUITE/
 └── tests/
     └── test_live_ids.py
 ```
-🛠️ Technologies
-Programming
+## 🛠️ Technologies
+
+### Programming
+
 - Python
-Security & Networking
+
+### Security & Networking
+
 - Nmap
-- Network scanning
-- Intrusion detection
-- Vulnerability assessment
-- Security monitoring
-- Log analysis
-Python Libraries
+- Network Scanning
+- Intrusion Detection
+- Vulnerability Assessment
+- Security Monitoring
+- Log Analysis
+
+### Python Libraries
+
 - python-dotenv
 - python-nmap
 - requests
 - psutil
 - tqdm
 - ReportLab
-⚙️ Requirements
+
+---
+
+## ⚙️ Requirements
+
 - Python 3.x
 - Nmap
-- Operating system with networking tools available
+- Operating system with required networking tools
 - Appropriate privileges for operations that require elevated access
-Install Nmap
+
+### Install Nmap
+
 On Debian/Kali-based Linux systems:
+
+```bash
 sudo apt update
 sudo apt install nmap
-
-🚀 Installation
-1. Clone the repository
-git clone https://github.com/dheeraj05-22/CYBER-DEFENCE-SUITE.git
-cd CYBER-DEFENCE-SUITE
-
-2. Create a virtual environment
-Linux/macOS:
-python3 -m venv venv
-source venv/bin/activate
-
-Windows:
-python -m venv venv
-venv\Scripts\activate
-
-3. Install Python dependencies
-pip install -r requirements.txt
-
-🔐 Email Scanner Configuration
-Email scanning functionality uses environment variables so credentials are not stored directly in source code.
-Create a local .env file:
-EMAIL_IMAP_HOST=your-imap-server
-EMAIL_USER=your-email@example.com
-EMAIL_PASS=your-password
-
-EMAIL_FOLDER=INBOX
-EMAIL_POLL_INTERVAL=60
-EMAIL_FETCH_LIMIT=20
-
-Important
-Never commit your .env file.
-The repository is configured to ignore environment files.
-▶️ Usage
-Start the application with:
-python main.py
-
-The application provides an interactive terminal menu for accessing the different security modules.
-Example workflow
-Cyber Defence Suite
-        │
-        ├── System Information
-        ├── Network Scanner
-        │      ├── Local Network
-        │      ├── Custom Range
-        │      ├── External Server
-        │      └── Ultra / Full Port Scan
-        │
-        ├── Vulnerability Scanner
-        ├── Offline IDS
-        └── Phishing / Email Security
-
-🧪 Testing
-The project includes a basic live IDS test script:
-python tests/test_live_ids.py
-
-The test uses the loopback interface for local monitoring.
-📄 Reports
-The application can generate scan-related reports during runtime.
-Generated reports and runtime output are intentionally excluded from version control to avoid publishing environment-specific scan results.
-🔒 Security Considerations
-Some components may require:
-- Administrator/root privileges
-- Access to local network interfaces
-- Nmap installation
-- Network access
-- Email configuration for IMAP-based scanning
-Use the toolkit only against authorized targets.
-🎯 Project Goals
-The project was developed as a hands-on cybersecurity learning project to explore:
-- Python programming for cybersecurity
-- Network reconnaissance
-- Vulnerability assessment
-- Intrusion detection
-- Security monitoring
-- Log analysis
-- Email security
-- Modular software design
-👨‍💻 Author
-Dheeraj Reddy Poreddy
-Cybersecurity Graduate | Python | Linux | AWS | Network Security | Security Monitoring
-GitHub:
-https://github.com/dheeraj05-22
-LinkedIn:
 https://linkedin.com/in/deeraj-reddy-poreddy-722731268
 
