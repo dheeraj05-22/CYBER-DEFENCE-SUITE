@@ -1,23 +1,22 @@
-# Python
+# Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
 
-# Environment variables
+# Environment files / secrets
 .env
+.env.*
 
-# Logs & reports
+# Logs
 *.log
-reports/*.csv
-reports/*/
 
-# OS files
+# Generated reports
+reports/
+
+# OS / editor files
 .DS_Store
-
-# Test files
-test_*.py
+.vscode/
+.idea/
