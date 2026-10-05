@@ -1,17 +1,4 @@
 # modules/network_scanner.py
-"""
-Network scanner module - Ultra integrated version
-Features:
- - scan_my_network / scan_custom_range / scan_external_server
- - full_port_scan (Ultra Scan): Top1000 / All ports / Aggressive
- - device identification (MAC vendor lookup + heuristics)
- - OS fingerprinting via nmap (-O)
- - advanced vuln scanning integration
- - real-time monitoring (start_monitor / stop_monitor)
- - ARP spoof detection
- - Save reports: CSV / JSON / PDF (ReportLab optional)
-Notes: uses 'nmap' CLI via subprocess for best reliability.
-"""
 
 import subprocess
 import socket
@@ -21,6 +8,7 @@ import os
 import datetime
 import json
 import csv
+import reportlab
 import threading
 import time
 import sys
