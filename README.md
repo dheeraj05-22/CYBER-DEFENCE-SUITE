@@ -143,5 +143,4 @@ On Debian/Kali-based Linux systems:
 ```bash
 sudo apt update
 sudo apt install nmap
-https://linkedin.com/in/deeraj-reddy-poreddy-722731268
 
