@@ -158,7 +158,7 @@ sudo apt install nmap
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/dheeraj05-22/CYBER-DEFENCE-SUITE.git
+git clone https://github.com/dheeraj05-22/cyber-defence-suite.git
 cd CYBER-DEFENCE-SUITE
 ```
 
